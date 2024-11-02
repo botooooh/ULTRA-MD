@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '2250151191073';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -20,11 +20,11 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.botNumber = '923051391007' //replace your bot number here
+global.botNumber = '2250151191073' //replace your bot number here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['2250151191073', '2250151191073']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -71,9 +71,9 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
+global.premium = 'false'
+global.packname = '🗿.ᚽᐯᚣᚻₛₖᵤₗₗ.👑|vole pas mon sticker rat😑'
+global.author = '🗿.ᚽᐯᚣᚻₛₖᵤₗₗ.👑'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
